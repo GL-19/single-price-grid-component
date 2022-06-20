@@ -29,6 +29,7 @@ main {
 	border-radius: 15px;
 	overflow: hidden;
 }
+
 .join-container {
 	background-color: #ffffff;
 	grid-area: join;
@@ -100,6 +101,12 @@ h2 {
 	width: 100%;
 	height: 50px;
 	margin-top: 60px;
+}
+
+.btn:hover {
+	transition: 0.2s ease-in;
+	color: #dddddd;
+	background-color: hsl(71, 60%, 44%);
 }
 
 ul {
